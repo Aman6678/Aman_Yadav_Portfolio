@@ -69,3 +69,34 @@
     line-height: 2.7rem;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .about-section {
+    width: calc(100% - 36px);
+    padding: 35px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: var(--backgroundColor);
+    z-index: 3;
+  }
+
+  .about-me {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .about-me h3 {
+    font-size: 19px;
+    letter-spacing: 4px;
+  }
+
+  .about-me p {
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+  }
+}
+

@@ -456,3 +456,47 @@ h2.landing-info-h2 {
     font-size: 58px;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .landing-section {
+    height: 100svh;
+    overflow: hidden;
+  }
+
+  .character-model {
+    height: 60svh;
+    bottom: 0;
+  }
+
+  .landing-intro {
+    top: 15%;
+    left: 18px;
+  }
+
+  .landing-info {
+    top: auto;
+    bottom: 22px;
+    left: 18px;
+    right: auto;
+    transform: none;
+  }
+
+  .landing-info h3 {
+    font-size: 15px;
+  }
+
+  .landing-info h2 {
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-left: 0;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 23px;
+    line-height: 29px;
+    width: max-content;
+    margin-left: 0;
+  }
+}

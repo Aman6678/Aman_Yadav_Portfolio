@@ -13,10 +13,10 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
+  "/images/1.webp",
+  "/images/2.webp",
+  "/images/3.webp",
+  "/images/4.webp",
   "/images/mongo.webp",
   "/images/mysql.webp",
   "/images/typescript.webp",
@@ -151,20 +151,23 @@ const TechStack = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const materials = useMemo(() => {
-    return textures.map(
-      (texture) =>
-        new THREE.MeshPhysicalMaterial({
-          map: texture,
-          emissive: "#ffffff",
-          emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
-          clearcoat: 0.1,
-        })
-    );
-  }, []);
+  
+const materials = useMemo(() => {
+  return textures.map(
+    (texture) =>
+      new THREE.MeshPhysicalMaterial({
+        map: texture,
+        color: "#ffffff",
+        emissive: "#ffffff",
+        emissiveMap: texture,
+        emissiveIntensity: 0.2,
+        metalness: 0.1,
+        roughness: 0.65,
+        clearcoat: 0.15,
+      })
+  );
+}, []);
+
 
   return (
     <div className="techstack">
@@ -193,7 +196,7 @@ const TechStack = () => {
             <SphereGeo
               key={i}
               {...props}
-              material={materials[Math.floor(Math.random() * materials.length)]}
+              material={materials[i % materials.length]}
               isActive={isActive}
             />
           ))}

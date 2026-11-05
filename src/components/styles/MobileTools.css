@@ -1,0 +1,57 @@
+
+.mobile-tools {
+  width: calc(100% - 36px);
+  margin: 0 auto;
+  padding: 50px 0 65px;
+  box-sizing: border-box;
+  background: var(--backgroundColor);
+}
+
+.mobile-tools h2 {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 500;
+  margin: 0 0 35px;
+}
+
+.mobile-tools h2 span {
+  color: var(--accentColor);
+}
+
+.mobile-tools-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mobile-tools-category {
+  border: 1px solid rgba(94, 234, 212, 0.2);
+  border-radius: 12px;
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.mobile-tools-category h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 18px;
+}
+
+.mobile-tools-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.mobile-tool-tag {
+  font-size: 13px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: rgba(94, 234, 212, 0.08);
+  border: 1px solid rgba(94, 234, 212, 0.2);
+  transition: background 0.3s ease;
+}
+
+.mobile-tool-tag:active {
+  background: rgba(94, 234, 212, 0.2);
+}
