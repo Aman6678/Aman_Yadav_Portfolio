@@ -23,9 +23,7 @@ const Career = () => {
               <h3>2026–27</h3>
             </div>
             <p>
-              Building applied sustainability expertise through real-world
-              projects, technical coursework covering carbon
-              management, circular economy, materiality, sustainability reporting and corporate climate action.
+              Studying carbon accounting, LCA, materiality assessment and sustainability reporting through applied projects.
             </p>
           </div>
 
@@ -38,10 +36,7 @@ const Career = () => {
               <h3>Mar–Aug 2026</h3>
             </div>
             <p>
-              Supported global HSE programs, risk-based training and safety harmonisation. 
-              Contributed to the E&C website using Google Apps Script, combining coding with
-               technical content management, and supported AI training across Google Workspace, 
-               Gemini, prompt engineering and practical use cases.
+              Developed global HSE training content and supported safety initiatives, digital workflows and AI learning.
             </p>
           </div>
 
@@ -51,14 +46,10 @@ const Career = () => {
                 <h4>Project Management Intern</h4>
                 <h5>EcoVadis · Paris</h5>
               </div>
-              <h3>Sep 2025–Mar 2026</h3>
+              <h3>Sep 25–Mar 2026</h3>
             </div>
             <p>
-              Worked at the intersection of sustainability methodology, ESG
-              ratings and regulation, supporting ESMA-aligned governance and
-              evidence traceability. Strengthened documentation and methodology
-              tracking to help make rating processes more consistent, transparent
-              and audit-ready.
+              Improved Ecovadis ESG methodology, supporting ESMA-aligned governance and audit traceability.
             </p>
           </div>
 
@@ -71,8 +62,7 @@ const Career = () => {
               <h3>2024–27</h3>
             </div>
             <p>
-              Built a broad foundation in strategy, project management and business transformation
-               through applied company projects and international teamwork with mentors from EY and Capgemini.
+              Developed skills in strategy, project management and business transformation through international team projects.
             </p>
           </div>
 
@@ -85,7 +75,7 @@ const Career = () => {
               <h3>Mar–Jul 2022</h3>
             </div>
             <p>
-              Worked on backend improvements and digital products, strengthening coding, problem-solving and data-driven thinking.
+              Supported web development, strengthening coding, analytical thinking and technical problem-solving.
             </p>
           </div>
 
@@ -98,8 +88,7 @@ const Career = () => {
               <h3>2018–22</h3>
             </div>
             <p>
-              Built foundations in programming, databases, AI, decision making and data analysis, shaping the technical perspective I now bring to
-              sustainability.
+            Built a foundation in programming, databases, AI and data analysis.
             </p>
           </div>
         </div>

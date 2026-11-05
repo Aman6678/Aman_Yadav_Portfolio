@@ -1,110 +1,104 @@
+
 .contact-section {
-  margin: auto;
-  padding-bottom: 100px;
-  margin-top: 100px;
+  margin: 70px auto 0;
+  padding-bottom: 70px;
   position: relative;
   z-index: 2;
   background-color: var(--backgroundColor);
 }
 
+.contact-container {
+  width: 100%;
+}
+
 .contact-section h3 {
-  font-size: 60px;
+  font-size: clamp(38px, 4vw, 60px);
   font-weight: 400;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 35px;
 }
 
 .contact-flex {
   display: flex;
   justify-content: space-between;
-}
-
-.contact-flex h4 {
-  font-weight: 500;
-  margin: 0;
-  opacity: 0.6;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .contact-box {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
-.contact-flex p {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-a.contact-social {
-  font-size: 25px;
-  border-bottom: 1px solid #ccc;
-}
-
-.contact-box h2 {
-  font-weight: 400;
-  font-size: 23px;
+.contact-box h4 {
+  font-size: 16px;
+  font-weight: 500;
   margin: 0;
+  color: #a0adb7;
 }
 
-.contact-box h2>span {
+/* LinkedIn and Gmail: one below the other */
+
+.contact-connect-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.contact-connect-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #eae5ec;
+  overflow-wrap: anywhere;
+  transition: color 0.3s ease;
+}
+
+.contact-connect-links a svg {
+  color: var(--accentColor);
+  flex-shrink: 0;
+}
+
+.contact-connect-links a:hover {
   color: var(--accentColor);
 }
 
-.contact-box h5 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
+/* Designed and Developed by Aman Yadav */
+
+.contact-credit {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.contact-credit h2 {
+  font-size: 23px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contact-credit h2 span {
+  color: var(--accentColor);
+}
+
+.contact-credit h5 {
   display: flex;
-  gap: 10px;
-  opacity: 0.5;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.55;
+  margin: 20px 0 0;
 }
 
-@media only screen and (max-width: 1600px) {
-  .contact-section h3 {
-    font-size: 50px;
-  }
+/* Mobile */
 
-  .contact-box h2 {
-    font-size: 20px;
-  }
-
-  a.contact-social {
-    font-size: 22px;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .contact-section h3 {
-    font-size: 40px;
-  }
-
-  .contact-box h2 {
-    font-size: 18px;
-  }
-
-  a.contact-social {
-    font-size: 20px;
-  }
-
-  .contact-flex p {
-    margin-top: 0px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .contact-flex {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .contact-flex p {
-    margin-bottom: 0px;
-  }
-
-  .contact-flex h4 {
-    margin-top: 20px;
-  }
-
+@media screen and (max-width: 900px) {
   .contact-section {
     margin-top: 50px;
     padding-bottom: 50px;
@@ -112,5 +106,23 @@ a.contact-social {
 
   .contact-container {
     width: calc(100% - 25px);
+  }
+
+  .contact-flex {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .contact-connect-links a {
+    font-size: 16px;
+  }
+
+  .contact-credit {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .contact-credit h2 {
+    font-size: 19px;
   }
 }

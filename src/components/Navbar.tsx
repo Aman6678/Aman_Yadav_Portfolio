@@ -43,19 +43,19 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
+          AY
         </a>
         <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
+          href="https://www.linkedin.com/in/aman-yadav-esg/"
           className="navbar-connect"
           data-cursor="disable"
           target="_blank"
           rel="noreferrer"
         >
-          linkedin.com/in/akashrmalhotra
+          linkedin.com/in/aman-yadav-esg
         </a>
         <ul>
-          <li>
+          {/*<li>
             <a data-href="#about" href="#about">
               <HoverLinks text="ABOUT" />
             </a>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <a data-href="#work" href="#work">
               <HoverLinks text="WORK" />
             </a>
-          </li>
+          </li>*/}
           <li>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />

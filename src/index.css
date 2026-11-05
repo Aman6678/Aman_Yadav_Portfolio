@@ -135,3 +135,18 @@ body {
     font-size: 40px;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .techstack h2 {
+    font-size: clamp(38px, 4.5vw, 70px);
+    font-weight: 500;
+    line-height: 1.15;
+    text-transform: none;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .techstack h2 span {
+    color: var(--accentColor);
+  }
+}

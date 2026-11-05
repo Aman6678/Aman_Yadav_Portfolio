@@ -157,4 +157,14 @@
   }
 }
 
+/* Centre My Certifications heading */
+
+.certifications-heading {
+  text-align: center;
+}
+
+.certifications-heading h2 {
+  text-align: center;
+}
+
 

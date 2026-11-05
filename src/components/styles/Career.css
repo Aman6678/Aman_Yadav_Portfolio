@@ -299,3 +299,74 @@
     left: 0;
   }
 }
+
+/* COMPACT CAREER TYPOGRAPHY */
+
+.career-info h4 {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 500;
+  width: auto;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.career-info h5 {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 7px 0 0;
+}
+
+.career-info h3 {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.career-info-box p {
+  font-size: 17px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #b7bbc6;
+}
+
+.career-info-in {
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.career-role {
+  min-width: 0;
+}
+
+/* MOBILE TYPOGRAPHY */
+
+@media only screen and (max-width: 900px) {
+  .career-info-in {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .career-info h4 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .career-info h5 {
+    font-size: 14px;
+  }
+
+  .career-info h3 {
+    font-size: 14px;
+    white-space: normal;
+  }
+
+  .career-info-box p {
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
+}
