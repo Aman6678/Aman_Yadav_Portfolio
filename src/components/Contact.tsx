@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="contact-connect-links">
 
               <a
-                href="www.linkedin.com/in/aman-yadav-esg/"
+                href="https://www.linkedin.com/in/aman-yadav-esg/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor="disable"
